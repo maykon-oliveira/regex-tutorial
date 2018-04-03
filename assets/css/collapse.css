@@ -1,0 +1,14 @@
+---
+---
+@import "{{ site.theme }}";
+.collapse-list{margin-bottom:0;padding-left:0;list-style:none}@media (max-width:$screen-xs-max){}@media (min-width:$screen-sm){}@media (min-width:$screen-sm){}.collapse-open{display:none}.collapse-painel{visibility:hidden;max-height:0;opacity:0;transition:max-height .1s,visibility .3s,opacity .3s}.collapse-open:checked ~ .collapse-painel{max-height:100%;opacity:100;visibility:visible}.collapse-list li{margin-bottom:10px}.collapse-list .collapse-btn{border:#eaeaea solid 1px;background:#4276B3;color: white;border-radius:2px;cursor:pointer;display:block;padding:5px 10px;}.collapse-list .collapse-btn:hover{background:#6495ED}.collapse-list .collapse-inner{padding:10px}
+
+.nav-bottom {
+    padding: 25px;
+    text-align: center;
+}
+
+.nav-bottom > button > a {
+    color: #159957;
+    line-height: 14px;
+}
