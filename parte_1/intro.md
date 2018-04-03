@@ -34,46 +34,48 @@ Cada simbolozinho desses tem sua função específica, que pode mudar dependendo
 
 Se esforça pra decorar os nomes deles, por que eles vão fazer parte da sua vida. Eles estão divididos em quatro grupos distintos, de acordo com características comuns entre eles. Vamos examinar cada grupo separadamente.
 
+<br>
 - Tipos Representantes
 
 | Metacaractere | Nome         | Função                         |
 | :-----------: | ------------ | ------------------------------ |
-|    .          | Ponto        | Um caractere qualquer          |
-|  [...]        | Lista        | Lista de caracteres permitidos |
-|  [^...]       | Lista nagada | Lista de caracteres proibidos  |
+|    `.`        | Ponto        | Um caractere qualquer          |
+|  `[...]`      | Lista        | Lista de caracteres permitidos |
+|  `[^...]`     | Lista nagada | Lista de caracteres proibidos  |
 
+<br>
 - Tipos Quantificadores
 
 | Metacaractere | Nome      | Função           |
 | :-----------: | --------- | ---------------- |
-|    ?          | Opcional  | Zero ou um       |
-|  *            | Asterisco | Zero, um ou mais |
-|  +            | Mais      | Um ou mais       |
-|  {n, m}       | Chaves    | De n até m       |
+|    `?`        | Opcional  | Zero ou um       |
+|  `*`          | Asterisco | Zero, um ou mais |
+|  `+`          | Mais      | Um ou mais       |
+|  `{n, m}`     | Chaves    | De n até m       |
 
+<br>
 - Tipos Âncoras
 
 | Metacaractere | Nome         | Função                   |
 | :-----------: | ------------ | ------------------------ |
-|    ^          | Circunflexo  | Início da linha          |
-|  $            | Cifrão       | Fim da linha             |
-|  \b           | Borda        | Início ou fim de palavra |
+|    `^`        | Circunflexo  | Início da linha          |
+|  `$`          | Cifrão       | Fim da linha             |
+|  `\b`         | Borda        | Início ou fim de palavra |
 
+<br>
 - Outros
 
 | Metacaractere | Nome       | Função                          |
 | :-----------: | ---------- | ------------------------------- |
-|      \c       | Escape     | Torna literal o caractere c     |
-|      \|       | Ou         | Ou um ou outro                  |
-|      ( )      | Grupo      | Delimita um grupo               |
-|   \1 ... \9   | Retrovisor | Textos casados nos grupos 1...9 |
+|     `\c`      | Escape     | Torna literal o caractere c     |
+|      `\|`     | Ou         | Ou um ou outro                  |
+|      `( )`    | Grupo      | Delimita um grupo               |
+|   `\1 ... \9` | Retrovisor | Textos casados nos grupos 1...9 |
 
 
 <div class="nav-bottom">
 	<button><a href="{{site.url}}">Anterior</a></button>
 	<button><a href="{{site.url}}parte_1/representantes">Próximo</a></button>
 </div>
-
-
 
 Fonte [Aurélio Marinho](http://aurelio.net/regex/) a autoridade máxima Brasileira a respeitos das Expressões Regulares.

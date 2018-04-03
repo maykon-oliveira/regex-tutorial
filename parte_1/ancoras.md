@@ -135,15 +135,15 @@ Por isso `\bdia\b` também casa bom-dia!, pois o traço e a exclamação não s�
 ### Resumos
 
 1. **Circunflexo**
-  1. Serve para procurar palavras no começo da linha.
-  2. Só é especial no começo da ER (e de uma lista).
+   1. Serve para procurar palavras no começo da linha.
+   2. Só é especial no começo da ER (e de uma lista).
 2. **Cifrão**
-  1. Serve para procurar palavras no fim da linha.
-  2. Só é especial no final da ER.
+   1. Serve para procurar palavras no fim da linha.
+   2. Só é especial no final da ER.
 3. **Borda**
-  1. A borda marca os limites de uma palavra.
-  2. O conceito "palavra" engloba letras, números e o sublinhado.
-  3. A borda é útil para casar palavras exatas e não parciais.
+   1. A borda marca os limites de uma palavra.
+   2. O conceito "palavra" engloba letras, números e o sublinhado.
+   3. A borda é útil para casar palavras exatas e não parciais.
 
 <div class="nav-bottom">
 	<button><a href="{{site.url}}parte_1/quantificadores">Anterior</a></button>

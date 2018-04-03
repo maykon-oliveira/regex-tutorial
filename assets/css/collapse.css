@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.nav-bottom > button{
+    background-color: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.2);
+    border-style: solid;
+}
+
 .nav-bottom > button > a {
     color: #159957;
     line-height: 14px;
