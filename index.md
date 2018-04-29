@@ -4,8 +4,7 @@ layout: default
 # Expressões Regulares
 
 
-> Neste nosso mundo tecnoinformatizado, onde o acesso rápido à informação desejada é algo crucial, temos nas expressões regulares uma mão amiga, que quanto mais refinada for sua construção, mais preciso e rápido será o resultado, diferenciando aqueles que as dominam daqueles que perdem horas procurando por dados que estão ao alcance da mão.
->
+> Aprenda a usar e aproveitar ao máximo as expressões regulares
 
 ### [Parte 1 - Introdução]({{site.url}}parte_1/intro)
 
